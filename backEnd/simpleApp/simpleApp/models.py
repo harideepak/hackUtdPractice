@@ -12,6 +12,6 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
 
 
-class PhoneBook100(models.Model):
+class PhoneBook(models.Model):
     name = models.CharField(max_length=50)
     contactNumber = models.CharField(max_length=12)

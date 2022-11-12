@@ -20,4 +20,7 @@ import simpleApp.views as views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('homePage/', views.about),
+    path('addContact/<name>', views.insertData),
+    path('addContactFromBody/', views.insertDataFromBody),
+    path('getContactFromDB/', views.getData),
 ]
